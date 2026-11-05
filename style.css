@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    background-color: #17324d;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navigation a:hover {
+    text-decoration: underline;
+}
+
+.navigation a:focus-visible {
+    outline: 2px solid white;
+    outline-offset: 5px;
+}
+
+.navigation a[aria-current="page"] {
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    .navigation {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+}
