@@ -81,21 +81,23 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 40px 25px;
+}
 
-    h1 {
-        margin-top: 0;
-        margin-bottom: 30px;
-        color: #ffcc00;
-     }
-     h2 {
-        margin-top: 0;
-        margin-bottom: 30px;
-        color: #ffcc00;
-    }
-    h3 {
-        margin-top: 0;
-        color: #ffcc00;
-    }
+.site-main h1 {
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: #ffcc00;
+}
+
+.site-main h2 {
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: #ffcc00;
+}
+
+.site-main h3 {
+    margin-top: 0;
+    color: #ffcc00;
 }
 
 .card {
@@ -104,6 +106,7 @@ body {
     border-radius: 8px;
     padding: 20px;
     margin-bottom: 20px;
+    overflow: hidden;
 }
 
 /*PICTURE CAROUSEL */
