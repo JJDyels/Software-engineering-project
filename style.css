@@ -165,6 +165,22 @@ body {
     background-color: #e6b800;
  }
 
+ #construction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+#construction img {
+    width: 100%;
+    max-width: 1000px; /* optional */
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+}
+
 
 /* Footer */
 .site-footer {
