@@ -249,24 +249,3 @@ body {
     }
 }
 
-/* Facilities page images */
-.facility-image {
-    display: block;
-    width: 100%;
-    max-width: 700px;
-    height: auto;
-    border-radius: 10px;
-    margin: 20px auto;
-}
-
-/* Facilities mobile responsiveness */
-@media (max-width: 600px) {
-    .facility-image {
-        width: 100%;
-        height: auto;
-    }
-
-    .site-main {
-        padding: 20px 15px;
-    }
-}
