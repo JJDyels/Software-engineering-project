@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -43,6 +42,44 @@
             <p><strong>Phone:</strong> +358 40 123 4567</p>
             <p><strong>Location:</strong> Helsinki, Finland</p>
         </section>
+
+        <form action="#" method="POST">
+
+            <fieldset>
+                <legend>Contact Form</legend>
+
+                <p>Fields marked with an asterisk (*) are required.</p>
+
+                <div class="field">
+                    <label for="nimi">Full Name <span class="required">*</span></label>
+                    <input type="text" id="name" name="fullname" placeholder="Firstname Lastname" autocomplete="name"
+                        maxlength="100" required>
+                </div>
+
+                <div class="field">
+                    <label for="sposti">Email <span class="required">*</span></label>
+                    <input type="email" id="email" name="email" placeholder="firstname.lastname@domain.com"
+                        autocomplete="email" maxlength="100" required>
+                </div>
+
+                <div class="field">
+                    <label for="tel">Phone <span class="required">*</span></label>
+                    <input type="tel" id="tel" name="tel" placeholder="+35840123456" autocomplete="tel" required>
+                </div>
+
+                <div class="field">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" rows="4" placeholder="Write your message here ..."></textarea>
+                </div>
+
+                <div class="buttons">
+                    <button type="submit">Send</button>
+                    <button type="reset" class="clear">Clear</button>
+                </div>
+
+            </fieldset>
+        </form>
+
 
     </main>
 
